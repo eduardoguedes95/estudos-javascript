@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
 body {
-    background-color:rgb(27, 42, 252);
     font: normal 15pt arial;
 }
 header {
@@ -9,7 +11,10 @@ header {
     text-align: center;
 }
 header > h1 {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+    font-size: 25pt;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.274);
+    padding: 20px;
 }
 section {
     background-color: white;
@@ -17,11 +22,11 @@ section {
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.308);
 }
 div {
     text-align: center;
-    font: normal 19pt arial;
+    font-family: 'Nova Mono', monospace;
     padding-bottom: 8px;
 }
 footer {
@@ -29,14 +34,15 @@ footer {
     text-align: center;
     font: italic 10pt arial;
     text-decoration: none;
+    padding: 15px;
 }
 footer > p > a {
     color: white;
     text-decoration: none;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.651);
-    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.534);
 }
 a:hover {
+    text-decoration: underline;
     font-size: 15pt;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.651);
 }
