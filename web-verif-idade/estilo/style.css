@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --fonte1: 'DM Mono', monospace;
+    --fonte2: 'Bebas Neue', cursive;
+}
+
+body {
+    background-color:#272b63;
+    font: normal 15pt arial;
+}
+header {
+    font: normal 20pt var(--fonte2);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+}
+div {
+    font: normal 14pt var(--fonte1);
+    padding-bottom: 8px;
+}
+div > #botao {
+    text-align: center;
+}
+footer {
+    color: white;
+    text-align: center;
+    font: italic 10pt arial;
+    text-decoration: none;
+}
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.651);
+    
+}
+a:hover {
+    font-size: 12pt;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.651);
+    text-decoration: underline;
+}
